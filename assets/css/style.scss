@@ -15,7 +15,7 @@
 }
 
 .flex-section {
-  width: 50vw;
+  width: 70vw;
   margin-left: 20px;
 }
 
@@ -33,8 +33,11 @@
   .flex-header {
     width: 100vw;
     display: flex;
-    padding: 0;
-    border: none;
+    justify-content: space-around;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-right: none;
+    border-bottom: 1px solid black;
     margin-bottom: 16px;
   }
 
