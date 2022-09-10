@@ -45,6 +45,39 @@ Then the version (or Enter if you want to skip)
 
 Wait some minutes, NanosTS will generate the type declarations for the latest NanosWorld API version, creating base files for your project and installing mandatory dependencies
 
+![Cli result after setting project config](/images/tutorials/quick-start/cliProjectResult.png)
+
 Finally, if you go into the folder you should have a simillar file structure:
-```sh
+![FolderStructure](/images/tutorials/quick-start/fileTreeResult.png)
+
+# Writing your first line of code in Typescript
+On NanosTS, we must write all our code inside the `src` folder
+![Src folder structure](/images/tutorials/quick-start/srcFolderResult.png)
+
+Now that everything is set-up, let's say hello to the world !
+Open `src/Server/Index.ts`
+
+Using the [NanosWorldDocs](https://docs.nanos.world/docs/scripting-reference/static-classes/package) for Packages,
+we first need to write a `Package.Subscribe` to the `Load` event:
+```ts
+import {Package} from "nanosts";
+
+Package.Subscribe("Load", () => {
+    
+});
 ```
+
+And to finish our script, we need to call `Package.Log` function !
+```ts
+import {Package} from "nanosts";
+
+Package.Subscribe("Load", () => {
+    Package.Log("Hello world from Typescript");
+});
+```
+
+Don't forget to add the `my-first-script` package to your server's `Config.toml` and start the server:
+![First Script console result](/images/tutorials/quick-start/firstScriptResult.png)
+
+Awesome ! Now that we have everything working, we can start to write our [First Gamemode](/tutorials/first-gamemode)
+where we will spawn the player, spawn some NPCs and give a weapon to our player using `nanos-world-weapon` Lua package !
