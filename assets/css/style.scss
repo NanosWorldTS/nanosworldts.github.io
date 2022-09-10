@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.flex-wrapper {
+  display: flex;
+}
+
+.flex-header {
+  width: auto;
+}
+
+.flex-section {
+  width: auto;
+  margin-left: 20px;
+}
