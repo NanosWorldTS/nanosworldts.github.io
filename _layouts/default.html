@@ -17,7 +17,9 @@
     <header>
         <div style="display:flex; justify-content: center">
             {% if site.logo %}
-            <img src="{{site.logo | relative_url}}" style="max-height: 128px; max-width: 128px" alt="Logo" />
+                <a href="/">
+                    <img src="{{site.logo | relative_url}}" style="max-height: 128px; max-width: 128px" alt="Logo" />
+                </a>
             {% endif %}
         </div>
 
@@ -27,13 +29,29 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/tutorials/quick-start">Quick start</a>
+                    Tutorials
+                    <ul>
+                        <li>
+                            <a href="/tutorials/quick-start">Quick start</a>
+                        </li>
+                        <li>
+                            <a href="/tutorials/first-gamemode">First gamemode</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="/tutorials/first-gamemode">First gamemode</a>
+                    Keeping your project up to date
                 </li>
                 <li>
-                    <a href="/tutorials/first-gamemode">Interfacing with Lua</a>
+                    Advances
+                    <ul>
+                        <li>
+                            <a href="/tutorials/first-gamemode">Interfacing with Lua</a>
+                        </li>
+                        <li>
+                            <a href="/tutorials/first-gamemode">Known limitations</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </p>
