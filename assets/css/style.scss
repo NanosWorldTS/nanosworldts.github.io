@@ -25,13 +25,18 @@
   justify-content: center;
 }
 
+.logo {
+  max-height: 128px;
+  max-width: 128px;
+}
+
 @media(max-width: 980px) {
   .flex-wrapper {
     flex-direction: column;
   }
 
   .flex-header {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding-left: 16px;
@@ -41,6 +46,10 @@
     margin-bottom: 16px;
   }
 
+  .logo {
+    max-height: 64px;
+    max-width: 64px;
+  }
 
   .flex-section {
     width: 100%;
