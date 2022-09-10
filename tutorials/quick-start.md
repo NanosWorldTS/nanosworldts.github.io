@@ -13,7 +13,7 @@ NanosTS is a CLI that will help create your project but also automatically updat
 
 Verify your install with this command:
 ```sh
-nanosts -v
+nanosts --version
 ```
 
 It should output something similar to this (depending on your OS and latest version)
