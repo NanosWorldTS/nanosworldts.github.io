@@ -3,3 +3,4 @@ plugins:
   - jekyll-remote-theme
 show_downloads: false
 title: "Nanos World TS"
+logo: "/images/nanosts.png"

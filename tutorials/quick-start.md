@@ -32,16 +32,16 @@ nanosts project my-first-script
 Next, enter your name:
 ```sh
 ➜  tests nanosts project my-first-script
-? enter name of author DKFN
+? enter name of author
 ```
 
 Then the version (or Enter if you want to skip)
 
-Select "script" when asked for a type
+- Select "script" when asked for a type
 
-When asked for script folder, press "a" to select all folders then press Enter
+- When asked for script folder, press "a" to select all folders then press Enter
 
-Finally, type Y to enable Lazy Loading, this will make it easier to test the changes we make to the sources files (learn more about Lazy Loading here)
+- Finally, type Y to enable Lazy Loading, this will make it easier to test the changes we make to the sources files (learn more about Lazy Loading here)
 
 Wait some minutes, NanosTS will generate the type declarations for the latest NanosWorld API version, creating base files for your project and installing mandatory dependencies
 
