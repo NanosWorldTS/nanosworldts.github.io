@@ -48,10 +48,12 @@ Wait some minutes, NanosTS will generate the type declarations for the latest Na
 ![Cli result after setting project config](/images/tutorials/quick-start/cliProjectResult.png)
 
 Finally, if you go into the folder you should have a simillar file structure:
+
 ![FolderStructure](/images/tutorials/quick-start/fileTreeResult.png)
 
 # Writing your first line of code in Typescript
 On NanosTS, we must write all our code inside the `src` folder
+
 ![Src folder structure](/images/tutorials/quick-start/srcFolderResult.png)
 
 Now that everything is set-up, let's say hello to the world !
@@ -90,6 +92,7 @@ Imports transpiller done
 ```
 
 Don't forget to add the `my-first-script` package to your server's `Config.toml` and start the server:
+
 ![First Script console result](/images/tutorials/quick-start/firstScriptResult.png)
 
 Awesome ! Now that we have everything working, we can start to write our [First Gamemode](/tutorials/first-gamemode)
