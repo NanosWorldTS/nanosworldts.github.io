@@ -76,6 +76,19 @@ Package.Subscribe("Load", () => {
 });
 ```
 
+Compile your package with `npm run build` command.
+
+A successful compilation will give you this output:
+```sh
+➜  ts-sql npm run build
+
+> build
+> tstl
+
+Imports transpiller starting
+Imports transpiller done
+```
+
 Don't forget to add the `my-first-script` package to your server's `Config.toml` and start the server:
 ![First Script console result](/images/tutorials/quick-start/firstScriptResult.png)
 
