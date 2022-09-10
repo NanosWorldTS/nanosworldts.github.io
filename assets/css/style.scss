@@ -5,10 +5,13 @@
 
 .flex-wrapper {
   display: flex;
+  justify-content: center;
 }
 
 .flex-header {
   width: 20vw;
+  padding-right: 6px;
+  border-right: 1px solid grey;
 }
 
 .flex-section {
